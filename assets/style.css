@@ -95,7 +95,7 @@ main {
 
 /* play section */
 #play {
-    height: 500px;
+    height: 600px;
     width: 100%;
     background: url(../assets/images/childcutting.jpg) no-repeat center center/cover;
 }
@@ -105,10 +105,10 @@ main {
     background-color: rgba(241, 109, 107, .7);
     font-size: 130%;
     position: absolute;
-    bottom: 30px;
+    bottom: 80px;
     width: 80%;
     min-height: 200px;
-    padding-top: 10px;
+    padding-top: 40px;
     padding-left: 10px;
 }
 
