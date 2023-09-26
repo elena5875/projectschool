@@ -29,11 +29,14 @@
             <a href="index.html" class="active">HOME</a>
           </li>
           <li>
-            <a href="media.html">MEDIA</a>
+            <a href="#media">MEDIA</a>
           </li>
           <li>
-            <a href="form.html">SIGN UP</a>
+            <a href="#signup">SIGN UP</a>
           </li>
+        <li>
+            <a href="#information" >INFORMATION</a>
+        </li>
         </ul>
       </nav>
     </header>
@@ -50,24 +53,23 @@
             <div id="mission">
                 <div id="aims">
                     <div>
-                        <h3>We want your children to have fun! <i class="fa-regular fa-face-smile"></i></h3>
+                        <h3>We want your children to have fun!</h3>
                         <hr>
                         <p>We want every child's daily learning fun and an adventure they will always come back for more. </p>
                     </div>
                     <div>
-                        <h3>food<i class="fa-solid fa-utensils"></i></h3>
-                        <hr>
+                        <h3>food</h3>
                         <p>Like you parents, we would like to  make sure that your child would have a balanced diet and be active inside and out of the school</p>
                     </div>
                 </div>
                 <div id="benefits-mental">
                     <div>
-                        <h3>Circle Time<i class="fa-solid fa-person-running"></i></h3>
+                        <h3>Circle Time</h3>
                         <hr>
                         <p>Your child would always be heard and be seen. Your child would always have the chance to explore, particularly the outside environment</p>
                     </div>
                     <div>
-                        <h3> friends <i class="fa-solid fa-children"></i></h3>
+                        <h3> friends </h3>
                         <hr>
                         <p>Of course our aim is to make sure that they play and learn together with their peers. Have fun with their teachers and friends in school</p>
                     </div>
@@ -81,26 +83,26 @@
             <div id="mission">
                 <div id="aims">
                     <div>
-                        <h3>Play<i class="fa-solid fa-children"></i></h3>
+                        <h3>Play</h3>
                         <p>Play is a vital part of our dialy activities. Your child will always have a chance to play both indoors and outdoors.
                              Our school have plenty of space for them to explore </p>
                     </div>
                     <div>
-                        <h3>Health<i class="fa-regular fa-heart"></i></h3>
+                        <h3>Health</h3>
                         <hr>
                         <p> Our lunch and snacks is thought off and well prepared to make sure that your child's meal is always healthy and safe</p>
                     </div>
                 </div>
                 <div id="benefits-mental">
                     <div>
-                        <h3>Gym time and circle time<i class="fa-brands fa-fly"></i></h3>
+                        <h3>Gym time and circle time</h3>
                         <hr>
                         <p>We always have circle time be it inside our outside of our school to ensure that each child is heard.
                             We also offer gym activities to the children, where they are taught by a certified gym teacher in how to jump, roll and all fun activities!
                         </p>
                     </div>
                     <div>
-                        <h3>Forest Play<i class="fa-solid fa-tree"></i></h3>
+                        <h3>Forest Play</h3>
                         <hr>
                         <p>Our school is located near a forest where the children get to play with nature and at the same time explore the outdoors with their teacher </p>
                     </div>
@@ -109,7 +111,7 @@
                     <div id="circle2-cover-bg"></div>
                 </div>
                 <!-- Meetup Times section -->
-                <section id="meetups">
+                <section id="information">
                     <h2 class="hidden headings">INFORMATION</h2>
                     <div id="times">
                         
@@ -142,7 +144,67 @@
                             <p>We are located centrally in the city but we also have the forest as part of our environment</p>
                             <p> 17754 Brunbarsvagen, Stockholm City</p>
                         </div>
+                </div>
+                </section>
+
+              /*photos for gallery */
+
+                <section id="gallery" id="media">
+                    <div id="photos">
+                        <img src="./assets/images/activities.jpg" alt="activities" />
+                        <img src="./assets/images/circletimeoutside.jpg" alt="circletimeoutside" />
+                        <img src="./assets/images/sandplay.jpg" alt="sandplay" />
+                        <img src="./assets/images/reading.jpg" alt="reading" />
+                        <img src="./assets/images/gym.jpg" alt="gym" />
+                        <img src="./assets/images/lunch.jpg" alt="lunch" />
+                        <img src="./assets/images/rock.jpg" alt="rock" />
+                        <img src="./assets/images/class.jpg" alt="class" />
+                        <img src="./assets/images/playoutsidewithchild.jpg" alt="outsideplay" />
+                        <img src="./assets/images/climbing.jpg" alt="circletimeoutside" />
+                        <img src="./assets/images/forestplay.jpg" alt="forestplay" />
+                        <img src="./assets/images/climbtree.jpg" alt="climbingtree" />
                     </div>
+                </section>
+
+
+            /*signup-form */
+                <section class="form-section" id="signup">
+                    <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                        <h2>Let's get you signed up!</h2>
+                        <br />
+                        <label for="fname">First Name</label>
+                        <input id="fname" name="first_name" type="text" required />
+                
+                        <label for="lname">Last Name</label>
+                        <input id="lname" name="last_name" type="text" required />
+                
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email_address" required />
+                
+                        <label for="tel-number">Telephone Number</label>
+                        <input type="tel-number" id="tel-number" name="telephone_number" required />
+                        <br />
+                        <h2>Your Child's Information</h2>
+                
+                        <label for="cfname">Child's First Name</label>
+                        <input id="cfname" name="child_first_name" type="text" required />
+                
+                        <label for="clname">Child's Last Name</label>
+                        <input id="clname" name="child_last_name" type="text" required />
+                
+                        <label for="birthdate">Date of Birth:</label>
+                        <input type="date" name="birthdate" id="birthdate" />
+                
+                        <label for="age">How old is your child</label>
+                        <input type="text" id="age" list="age" name="age" />
+                        <datalist id="age">
+                            <option value="6-11 months">6-11 months</option>
+                            <option value="1-2 years old">1 to 2 years old</option>
+                            <option value="2.1-3 years old">2.1 to 3 years old</option>
+                            <option value="3.1-4 years old">3.1 to 4 years old</option>
+                        </datalist>
+                        <input type="submit" value="submit form" />
+                    </form>
                 </section>
 
                 
