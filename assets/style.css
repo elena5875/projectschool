@@ -77,7 +77,7 @@ h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('./images/circletime.jpg') no-repeat center center;
+    background: url('./images/abacus.jpg') no-repeat center center;
 
 }
 
@@ -174,7 +174,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url('./images/rock\ collection.jpg') no-repeat center center;
+    background: url('./images/rock.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -191,12 +191,20 @@ hr {
 }
 
 #circle2-cover-bg {
-    background: url('./images/crayons.jpg') no-repeat center center;
+    background: url('/assets/images/crayons.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 /* event times */
+
+#information-times{
+    font-size: 100%;
+        text-align: center;
+        margin: 6%;
+        padding: 30%;
+        color: #3a3a3a;
+}
 
 #times {
     background-image: url('./images/gym.jpg');
@@ -213,7 +221,7 @@ hr {
     width: 20%;
     height: 300px;
     float: left;
-    padding: 30px 0 0 10px;
+    padding: 30px 5px 5px 10px;
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
@@ -254,80 +262,11 @@ hr {
         
 }
 
-
-/* footer */
-
-footer {
-    height: 150px;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks>li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-}
-
-
-/* Media queries */
-
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-    #club-ethos {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
-    }
-
-    #left-about,
-    #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #center2-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #times>div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-    }
-
-    hr {
-        display: none;
-    }
-}
+/* Form */
 
 .form-section {
     clear: left;
-    background: url("/assets/images/dino.jpg");
+    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -377,7 +316,88 @@ footer {
     background-color: #fafafa;
     color: #f16c6b;
 }
-/* For medium screen sizes from 950px wide and down */
+
+.form-section {
+    clear: left;
+    background: url("./images/pexels-yan-krukau-8613319.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+
+/* Media queries */
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+        #center2-about {
+            clear: both;
+            width: 100%;
+            float: left;
+            padding: 0;
+        }
+
+    #times div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
     #menu {
@@ -416,7 +436,7 @@ footer {
     }
 
     #photo {
-        column-count: 3;
+        column-count: 2;
     }
 }
 
