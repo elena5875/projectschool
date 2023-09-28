@@ -165,7 +165,8 @@ main {
     float: left;
     text-align: justify;
     letter-spacing: 4px;
-    line-height: 100%;
+    line-height: 20px;
+    margin-bottom: 20px;
 }
 
 #right-about {
@@ -174,7 +175,8 @@ main {
     float: right;
     text-align: justify;
     letter-spacing: 4px;
-    line-height: 100%;
+    line-height: 20px;
+    margin-bottom: 20px;
 }
 
 #center-about {
