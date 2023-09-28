@@ -27,6 +27,10 @@ h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -86,44 +90,38 @@ nav {
 
 /* Main content */
 main {
-    /* Make main element take up any surplus space to push footer down */
+    /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero section */
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    background: url("./images/crayons.jpg") no-repeat center center/cover;
     position: relative;
 }
 
-#hero-image {
-    height: 600px;
-    width: 100%;
-    background: url('./images/crayons.jpg') no-repeat center center;
-
-}
-
 #cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(241, 109, 107, .7);
     font-size: 130%;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
-    width: 300px;
-    height: 200px;
-
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
+}
 
-    background-color: rgba(241, 109, 107, .7);
-
-    bottom: 30px;
-    right: 150px;
-
-    position: absolute;
+#cover-text>h2,
+#cover-text>h3 {
+    color: #ffffff;
 }
 
 /* Reasons section */
@@ -153,197 +151,92 @@ main {
     margin: 5px 0;
 }
 
-/* club ethos */
-
-#club-ethos {
-    height: 600px;
-}
-
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-    text-align: justify;
-    letter-spacing: 4px;
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-    text-align: justify;
-    letter-spacing: 4px;
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-}
-
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 20px 0;
-}
-
-.left-about-heading {
-    width: 60%;
-    line-height: 40px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading {
-    width: 60%;
-    line-height: 40px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading h2 {
-    text-align: right;
-}
-
-.right-about-heading p {
-    text-align: right;
-}
-
-#welcome {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 280%;
-}
-
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
 #circle-cover-bg {
-    background: url('./images/rock.jpg') no-repeat center center;
-    height: 100%;
+    background: url('./images/rock.jpg') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
     border-radius: 50%;
-}
-
-#circle2-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 #circle2-cover-bg {
-    background: url('/assets/images/crayons.jpg') no-repeat center center;
-    height: 100%;
+    background: url('./images/abacus.jpg') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
     border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
 }
 
-/* event times */
-
-#information-times {
-    font-size: 100%;
-    text-align: center;
-    margin: 6%;
-    padding: 30%;
-    color: #3a3a3a;
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+/* Meetup Times section */
 #times {
-    background-image: url('./images/gym.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
+    background: url('./images/gym.jpg') no-repeat center/cover;
+    /* Handles responsivity without the need for a media query */
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #times div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
-    width: 20%;
-    height: 300px;
-    float: left;
-    padding: 30px 5px 5px 10px;
+    padding: 15px;
     text-align: center;
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meetup time dives over the background image */
     border: 2px solid white;
-    box-sizing: border-box;
 }
 
-#times h2 {
+#times h3 {
+    /* Override the heading colour set in general styles */
     color: #fafafa;
 }
 
-/* gallery */
-
-#photos {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
-}
-
-#photos>img {
+/* Gallery page */
+#photos img {
     width: 100%;
     line-height: 1em;
 }
 
-#gallery-photos {
-    font-size: 160%;
-    text-align: center;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-
-}
-
-
-#enrollment-form {
-    font-size: 300%;
-    text-align: center;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-
+#photos {
+    line-height: 0;
 }
 
 /* Form */
-
-.form-section {
-    clear: left;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+#signup {
+    background-image: url("./images/pexels-yan-krukau-8613319.jpg");
     background-size: cover;
-    background-position: center;
-    height: 900px;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
 }
 
-.signup-form {
-    margin: 150px 10% 0 0;
-    color: #fff;
+
+#signup-form {
+    color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
     padding: 30px;
 }
 
-.signup-form>h2 {
+
+#signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
+
 
 .text-input {
     background: transparent;
@@ -353,37 +246,25 @@ hr {
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
+    padding: 0 5px;
 }
 
-.text-input:hover {
-    border-color: #f16c6b;
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
+
 
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
+    padding: 15px 32px;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #454b1b;
     color: #fafafa;
-    display: block;
 }
-
-.join-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
-}
-
-.form-section {
-    clear: left;
-    background: url("./images/pexels-yan-krukau-8613319.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-}
-
-
 
 /* Footer */
 #social-networks {
@@ -399,30 +280,6 @@ hr {
     padding: 5%;
     color: #3a3a3a;
 }
-
-/* footer */
-
-footer {
-    height: 150px;
-}
-
-.social-networks {
-    text-align: center;
-    margin-top: 150px;
-}
-
-.social-networks>li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-    margin-top: 150px;
-}
-
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
@@ -495,6 +352,28 @@ footer {
     /* Gallery */
     #photos {
         column-count: 3;
+    }
+
+    /* Form */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
     }
 }
 
