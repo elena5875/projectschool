@@ -1,56 +1,118 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# KIDS @ PLAY
 
-CONTENT OF THE WEBSITE:
+# Welcome to my first ever website.
 
-KIDS @ PLAY PRE-SCHOOl.
-  What it is?
-  The website is an interactive website for a specific target. Parents who is looking for a school for their young children.
-  The website have an interactive design wherein the consumer can fill up a form and see some pictures.
+####    This website is a mock website of a Pre-School.
+#### The target consumer for this website are parents who have children ages 6 months to 4years old.
+#### The uniqueness of this website is that it caters to those parents who would like to enroll their child in a Global Mindedness.
+#### Where each child is heard and each culture is appreciated. Their children will also have a chance to explore outdoors and indoor activities.
 
-  The Structure:
-   The Website will contain the following
+# Features
 
-   Header: 
-     This will contain a picture background with the logo of the school. 
-     It will also contain some navigation bar, easy for the consumer to see.
-      The navigation bar is the short cut of where the consumer would like to go.
-      The following navigation bar that will be placed in the website are the following:
-        GOALS
-        WHAT WE OFFER
-        LOCATION
-        MEDIA
-        INFORMATION
-        
-        This page will use the  following
-        background image:
-        background color
-        font
-        
+#### The website target consumers are parents with young children living near the area where their mind-set is about raising their child in a Globel Set UP.
+#### The webpage is a one page website where in they can easily scroll down to see what the school have to offer.
+#### It is also laid out in a simple way for parents to see easily what the school have to offer
 
-    MAIN PAGE
+# Navigation Bar
+
+#### There is three navigation bar on the right side of the webpage wherein if you click will scroll down to the site they want to be.
+#### It has Three  Navigation bar namely:
+
+    Home: where you will see the name of the school and the picture
+    Media: Where they will see the pictures of the activities the school has done
+    Form: A responsive form where the reader can fill up a mock form and submit it.
+
+ # Landing page Image
+
+#### The landing page has a photograph of a crayon as a background and the Name of the school and its address. To easily know the name and location of the place.
+
+ # Curriculum
+
+#### The curriculum contains text about the goals of the school. The text is in color black and is using a font: *insert font here* for easy reading. 
+#### It also has a picture of a child gathering rocks to emphasise how we work in the school
+
+#### Background of this area is all white to make sure that the black text is very visible to the eye
+
+ # What We Offer
+
+#### This area contains text about the daily activities of the school. The text is in color black and is using a font: *insert font here* for easy reading. 
+#### It also has a picture of a child with a colorful had to emphasise the activities the school does.
+#### Background of this area is all white to make sure that the black text is very visible to the eye.
+
+ # Information
+
+#### The information has a background of children playing. While the text is in bold form and in color white. 
+#### This is to ensure that the text is still very visible to the reader and it is not too bright. 
+
+#### The area contains the following
+
+            Address: where the school is located
+            Contact Information fo the Principal
+            Contact information of the School Administrator
+            Opening hours of the school.
+            
+#  Gallery
+
+#### The gallery contains Photos of the activities done in the school. The photos chosen are bright and colorful to attract the attention of the reader.
+#### It is also placed in a way that the Photos will not over crowd the space. Hence the column spacing of *insert the measurement* was made to ensure that the reader will not be 
+
+#### overwhelmed by the pictures
+
     
-       The main page will contain the following information about the school.
-          GOALS - what the school is all about
-          WHAT WE OFFER - What the consumer will expect the school will deliver and what they can help
-          LOCATION - WHere the school is located in the area
-          MEDIA - Pictures of the past activities the school had done and the school routines and daily activities
-          INFORMATION. This is where the consumer will find the pertinent information like
-             Address of the school and the map
-             Contact information
-             Opening hours
-             Social Media
 
-       This page will use the following:
-        background color:
-        font:
-        images:
+ # Form
 
-    FOOTER:
-      In the footer the page will contain the links to Social Media and 
-      at the same time the curriculum the school is using in teaching the children.
+#### In the form the reader can see the enrollment form if they can input their details.
+#### It has a background picture of a hand with a toy dinosaur and the color of the text is black
+#### The background picture's brightness has been muted down to make sure that the text can still be visible and easy to read.
 
-      This page will use the following:
-        background color:
-        font:
-        images:
-             
+#### The following details are in the form
+
+        First Name
+        Last Name
+        Email
+        Telephone Number
+        Child's First Name
+        Chld's Last Name
+        Age
+#### This form is a responsive form where in you can send the form once the details are filled properly
+
+ # Footer
+
+#### The footer has the following links to social media. It is also a responsive botton, clicking the botton will send you to another page.
+
+#### We used the icons of the social media instead of their names to save space
+
+ # TESTING
+
+#### Validator Testing
+         
+w3c html validator
+         
+W3C Css validator
+
+ # Unfix Bug
+
+ # Deployment
+
+#  Credits
+
+##     Content
+
+#### The content of the Index.Html and Style.css was patterned from the Love Running Project of the Code Institute.
+#### Some content were also copied from the website W3School.com
+#### The fonts were taken from fonts.google.com
+
+#### To make my forms responsive I used the site <https://formdump.codeinstitute.net/> to be able to create a mock up submission
+        
+
+##     Media
+#### The Icons from the Footer were take from fontawesome.com
+#### For the pictures in the background and Gallery they were all downloaded from pexel.com
+    
+     
+
+
+
+
+
