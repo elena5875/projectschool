@@ -18,6 +18,12 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+#logo{
+    font-family: cursive;
+    color:#f16c6b;
+    font-weight: bolder;
+}
+
 h1,
 h2,
 h3 {
@@ -180,12 +186,19 @@ main {
     justify-content: center;
 }
 
-/* Meetup Times section */
+/* INFORMATION */
+
+#meetups{
+   font-size: 1vw;
+}
+
+
 #times {
     background: url('./images/gym.jpg') no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
+
 
 }
 
@@ -222,29 +235,49 @@ main {
 }
 
 #gallery{
-    margin-top: 5%;
+    margin-top: 1%;
     text-align: center;
     font-weight: bolder;
+    font-size: xx-large;
 }
 /* Form */
+
+#enroll{
+    color:black;
+    font-weight: bolder ;
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.signup-form {
+    color: black;
+        font-weight: bolder;
+
+}
+.signup-form h2 {
+    color: black;
+}
+
 #signup {
-    background-image: url("./images/pexels-yan-krukau-8613319.jpg");
+    background-image: url("./images/dino.jpg");
     background-size: cover;
     background-position: 75%;
+    filter: brightness( 70%);
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
 
 
 #signup-form {
-    color: #ffffff;
+    
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
 
 
 #signup-form>h2 {
-    color: whitesmoke;
+    color: white;
     margin-bottom: 20px;
 }
 
@@ -278,7 +311,7 @@ main {
 }
 
 /* Footer */
-#social-networks {
+.social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -286,17 +319,18 @@ main {
     list-style-type: none;
 }
 
-#social-networks i {
+.social-networks i {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
 }
 
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
         column-count: 2;
-        column-gap: 0;
+        column-gap: 1;
     }
 }
 
@@ -367,11 +401,13 @@ main {
 
     /* Form */
     #signup {
+        
         background-position: center;
         position: relative;
     }
 
     #signup-form {
+        
         max-width: 400px;
         position: absolute;
         left: 10%;
@@ -427,4 +463,5 @@ main {
     #benefits-physical>div {
         align-self: flex-end;
     }
+
 }
