@@ -100,10 +100,10 @@ W3C Css validator
 ##     Content
 
 #### The content of the Index.Html and Style.css was patterned from the Love Running Project of the Code Institute.
-#### Some content were also copied from the website W3School.com
-#### The fonts were taken from fonts.google.com
-
-#### To make my forms responsive I used the site <https://formdump.codeinstitute.net/> to be able to create a mock up submission
+        The link for this is https://code-institute-org.github.io/love-running-2.0/index.html
+####    Some content were also copied from the website W3School.com
+####    The fonts were taken from fonts.google.com
+    To make my forms responsive I used the site <https://formdump.codeinstitute.net/> to be able to create a mock up submission
         
 
 ##     Media
