@@ -50,7 +50,7 @@
 
 
 ##  Picture of the Header thru Mobile
-![Header](assets/images/Header.jpg)
+![Header](assets/images/Header2.jpg)
 
 
 
@@ -85,7 +85,7 @@
 ## Picture of Information thru mobile
 
 
-![Information](assets/images/Information.jpg)
+![Information](assets/images/Information2.jpg)
 
 
 
@@ -120,7 +120,7 @@
 ##     Picture of Form and Footer
 
 
-![Footer-form](assets/images/footer and form.jpg)
+![Footer-form](assets/images/footer and form2.jpg)
 
 
 
