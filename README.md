@@ -32,6 +32,11 @@
 #### The webpage is a one page website where in they can easily scroll down to see what the school have to offer.
 #### It is also laid out in a simple way for parents to see easily what the school have to offer
 
+
+##  Picture of the Header
+
+
+
 # Navigation Bar
 
 #### There is three navigation bar on the right side of the webpage wherein if you click will scroll down to the site they want to be.
@@ -44,6 +49,13 @@
  # Landing page Image
 
 #### The landing page has a photograph of a crayon as a background and the Name of the school and its address. To easily know the name and location of the place.
+
+
+##  Picture of the Header thru Mobile
+![Header]()
+
+
+
 
  # Curriculum
 
@@ -69,6 +81,16 @@
             Contact Information fo the Principal
             Contact information of the School Administrator
             Opening hours of the school.
+
+
+
+#### Picture of Information thru mobile
+
+
+![Information]()
+
+
+
             
 #  Gallery
 
@@ -95,6 +117,16 @@
         Chld's Last Name
         Age
 #### This form is a responsive form where in you can send the form once the details are filled properly
+
+
+####     Picture of Form and Footer
+
+
+![Footer-form]()
+
+
+
+
 
  # Footer
 
