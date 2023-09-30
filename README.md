@@ -7,15 +7,15 @@
 #### The uniqueness of this website is that it caters to those parents who would like to enroll their child in a Global Mindedness.
 #### Where each child is heard and each culture is appreciated. Their children will also have a chance to explore outdoors and indoor activities.
 
-ScreenShot for Mobile page
+
 ![screenshot-mobile](assets/images/screenshot-mobile.jpg) 
+        ##ScreenShot for Mobile page
 
-Screen Shot for Tablet
 ![screenshot-tablet](assets/images/screenshot-ipad.jpg)
+        ##Screen Shot for Tablet
 
-ScreenShot for Desktop
 ![screenshot-desktop](assets/images/screenshot-desktop.jpg)
-
+        ##Screenshot for desktop
 
 # Features
 
