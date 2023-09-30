@@ -62,11 +62,20 @@
 
 #### Background of this area is all white to make sure that the black text is very visible to the eye
 
+## PICTURE OF CURRICULUM PAGE THRU MOBILE
+![curriculum](assets/images/Header2.jpg)
+
+
  # What We Offer
 
 #### This area contains text about the daily activities of the school. The text is in color black and is using a font: *insert font here* for easy reading. 
 #### It also has a picture of a child with a colorful had to emphasise the activities the school does.
 #### Background of this area is all white to make sure that the black text is very visible to the eye.
+
+
+## PICTURE OF WHAT WE OFFER THRU MOBILE
+![whatweoffer](assets/images/Header2.jpg)
+
 
  # Information
 
