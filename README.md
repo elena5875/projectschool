@@ -183,44 +183,7 @@ W3C Css validator
     
 
 ##      Lighthouse Accessability Result
-![Alt Lighthouse-Accessabiltiy-Result](%PDF-1.4
-%����
-1 0 obj
-<</Creator (Mozilla/5.0 \(Windows NT 10.0; Win64; x64\) AppleWebKit/537.36 \(KHTML, like Gecko\) Chrome/117.0.0.0 Safari/537.36)
-/Producer (Skia/PDF m117)
-/CreationDate (D:20230929213003+00'00')
-/ModDate (D:20230929213003+00'00')>>
-endobj
-3 0 obj
-<</ca 1
-/BM /Normal>>
-endobj
-4 0 obj
-<</ca .1
-/BM /Normal>>
-endobj
-7 0 obj
-<</CA 1
-/ca 1
-/LC 0
-/LJ 0
-/LW 1
-/ML 4
-/SA true
-/BM /Normal>>
-endobj
-8 0 obj
-<</Type /XObject
-/Subtype /Image
-/Width 500
-/Height 322
-/ColorSpace /DeviceRGB
-/BitsPerComponent 8
-/Filter /DCTDecode
-/ColorTransform 0
-/Length 21144>> stream
-����)
-
+![Alt Lighthouse-Accessabiltiy-Result]()
 
  
 
