@@ -94,7 +94,7 @@
 ## Picture of Information thru mobile
 
 
-![pictures](assets/images/Information2.jpg)
+![pictures](assets/images/gallery2.jpg)
 
 
 
