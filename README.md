@@ -74,7 +74,7 @@
 
 
 ## PICTURE OF WHAT WE OFFER THRU MOBILE
-![whatweoffer](assets/images/Header2.jpg)
+![whatweoffer](assets/images/whatweoffer.jpg)
 
 
  # Information
@@ -94,7 +94,7 @@
 ## Picture of Information thru mobile
 
 
-![Information](assets/images/Information2.jpg)
+![pictures](assets/images/Information2.jpg)
 
 
 
