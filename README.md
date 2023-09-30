@@ -63,7 +63,7 @@
 #### Background of this area is all white to make sure that the black text is very visible to the eye
 
 ## PICTURE OF CURRICULUM PAGE THRU MOBILE
-![curriculum](assets/images/Header2.jpg)
+![curriculum](assets/images/curriculum.jpg)
 
 
  # What We Offer
