@@ -174,7 +174,7 @@ W3C Css validator
     
 
 ##      Lighthouse Accessability Result
-![Alt Lighthouse-Accessabiltiy-Result](assets/images/accessabitility6.pdf)
+![Alt Lighthouse-Accessabiltiy-Result](assets/images/accessability 6.pdf)
 
 
  
