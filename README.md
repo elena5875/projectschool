@@ -101,8 +101,12 @@ w3c html validator
          
 W3C Css validator
 
-![Alt Lighthouse Accessabiltiy Result](assets/images/accessabitility.pdf)
+
 ##      Lighthouse Accessability Result
+![Alt Lighthouse Accessabiltiy Result]()
+![Alt Lighthouse Accessabiltiy Result]()
+![Alt Lighthouse Accessabiltiy Result]()
+
 
  # Unfix Bug
 
