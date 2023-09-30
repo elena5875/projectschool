@@ -8,14 +8,23 @@
 #### Where each child is heard and each culture is appreciated. Their children will also have a chance to explore outdoors and indoor activities.
 
 
-![screenshot-mobile](assets/images/screenshot-mobile.jpg) 
+
 ##       ScreenShot for Mobile page
 
-![screenshot-tablet](assets/images/screenshot-ipad.jpg)
-##        Screen Shot for Tablet
+![screenshot-mobile](assets/images/screenshot-mobile.jpg) 
 
-![screenshot-desktop](assets/images/screenshot-desktop.jpg)
+
+
+##        Screen Shot for Tablet
+![screenshot-tablet](assets/images/screenshot-ipad.jpg)
+
+
+
+
 ##        Screenshot for desktop
+![screenshot-desktop](assets/images/screenshot-desktop.jpg)
+
+
 
 # Features
 
