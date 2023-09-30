@@ -129,7 +129,7 @@
 ##     Picture of Form and Footer
 
 
-![Footer-form](assets/images/footer and form2.jpg)
+![Footer-form](assets/images/footerandform2.jpg)
 
 
 
