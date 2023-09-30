@@ -33,8 +33,6 @@
 #### It is also laid out in a simple way for parents to see easily what the school have to offer
 
 
-##  Picture of the Header
-
 
 
 # Navigation Bar
@@ -84,7 +82,7 @@
 
 
 
-#### Picture of Information thru mobile
+## Picture of Information thru mobile
 
 
 ![Information](assets/images/Information.jpg)
@@ -119,7 +117,7 @@
 #### This form is a responsive form where in you can send the form once the details are filled properly
 
 
-####     Picture of Form and Footer
+##     Picture of Form and Footer
 
 
 ![Footer-form](assets/images/footer and form.jpg)
@@ -135,13 +133,45 @@
 #### We used the icons of the social media instead of their names to save space
 
  # TESTING
+ 
 
-#### Validator Testing
+#### Validator Testing and Unfix Bug
          
 w3c html validator
+
+        I have encountered so many errors in my Html codes.
+        Here are some of the following errors that I made
+          1. I have made either an additional symbols that my code does not need.
+          2. My code did not run properly for I wrote the wrong symbol or that I forgot to add a symbol in my code. Like for example a . in the begining of my img code.
+          3. I have duplicate my attributes to the code.
+          4. The validator can see and end tag but could not see my open tag
+          5. My element name could not be named as a child element
+          6. A section lacks a heading.
+Most of this I have solve but some I have encountered I have still to solve. 
+The following problems I have yet to solve:
+
+          No.4. I believe my open tag is too far away from the closing tag that is why the validator can not find it. 
+          No. 5 The element is part of the form code and the other codes worked properly only for one part.
+
+          
+          
+        
+
+
+
          
 W3C Css validator
 
+        I used w3c css validator for my code and I got one error, The error was that only a 0 can have not unit.
+        If my code has a number it should have a unit.
+
+        Problem not solve since the code I am using here are the following
+        flex: 1;
+        order: 1;
+        column-count: 1;
+
+    If I have more time and been able to research more I would have made more corrections to the mistake I have made in my code.
+    
 
 ##      Lighthouse Accessability Result
 ![Alt Lighthouse-Accessabiltiy-Result](assets/images/accessabitility1-2.pdf)
@@ -149,9 +179,12 @@ W3C Css validator
 ![Alt Lighthouse-Accessabiltiy-Result](assets/images/accessabitility5.pdf)
 
 
- # Unfix Bug
+ 
 
  # Deployment
+
+     I have been using codeanywhere as my IDE and had been writting my code there. I then used Github as my repository to deploy my Project.
+     
 
 #  Credits
 
