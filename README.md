@@ -7,7 +7,10 @@
 #### The uniqueness of this website is that it caters to those parents who would like to enroll their child in a Global Mindedness.
 #### Where each child is heard and each culture is appreciated. Their children will also have a chance to explore outdoors and indoor activities.
 
-![screenshot-mobile](./)
+![screenshot-mobile](assets/images/screenshot-mobile.jpg)
+![screenshot-mobile]()
+![screenshot-mobile]()
+
 
 # Features
 
