@@ -87,7 +87,7 @@
 #### Picture of Information thru mobile
 
 
-![Information]()
+![Information](assets/images/Information.jpg)
 
 
 
