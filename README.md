@@ -57,7 +57,7 @@
 
  # Curriculum
 
-#### The curriculum contains text about the goals of the school. The text is in color black and is using a font: *insert font here* for easy reading. 
+#### The curriculum contains text about the goals of the school. The text is in color black and is using a font: Oswald and sans-serif and a letter spacing of 4px for easy reading. 
 #### It also has a picture of a child gathering rocks to emphasise how we work in the school
 
 #### Background of this area is all white to make sure that the black text is very visible to the eye
@@ -68,7 +68,7 @@
 
  # What We Offer
 
-#### This area contains text about the daily activities of the school. The text is in color black and is using a font: *insert font here* for easy reading. 
+#### This area contains text about the daily activities of the school. The text is in color black and is using a font: Oswald and sans-serif with a letter spacing of 4px for easy reading. 
 #### It also has a picture of a child with a colorful had to emphasise the activities the school does.
 #### Background of this area is all white to make sure that the black text is very visible to the eye.
 
@@ -102,10 +102,9 @@
 #  Gallery
 
 #### The gallery contains Photos of the activities done in the school. The photos chosen are bright and colorful to attract the attention of the reader.
-#### It is also placed in a way that the Photos will not over crowd the space. Hence the column spacing of *insert the measurement* was made to ensure that the reader will not be 
+#### It is also placed in a way that the Photos will not over crowd the space. Hence the column spacing of  was made to ensure that the reader will not be 
 
-####  Picture of Gallery for Mobile
-     ![pictures](assets/images/gallery2.jpg)
+
 
     
 
