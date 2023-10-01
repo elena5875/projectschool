@@ -102,7 +102,8 @@
 #  Gallery
 
 #### The gallery contains Photos of the activities done in the school. The photos chosen are bright and colorful to attract the attention of the reader.
-#### It is also placed in a way that the Photos will not over crowd the space. Hence the column spacing of  was made to ensure that the reader will not be 
+#### It is also placed in a way that the Photos will not over crowd the space. Hence the column spacing of  was made to ensure that the reader will not be
+#### overwhelmed by the pictures.
 
 
 
@@ -156,16 +157,12 @@ w3c html validator
           4. The validator can see and end tag but could not see my open tag
           5. My element name could not be named as a child element
           6. A section lacks a heading.
+          
 Most of this I have solve but some I have encountered I have still to solve. 
 The following problems I have yet to solve:
 
           No.4. I believe my open tag is too far away from the closing tag that is why the validator can not find it. 
           No. 5 The element is part of the form code and the other codes worked properly only for one part.
-
-          
-          
-        
-
 
 
          
@@ -183,6 +180,10 @@ W3C Css validator
     <br>
 
 ##      Lighthouse Accessability Result
+
+Here is the result when I ran my page in google lighthouse.
+
+
 ![Lighthouse](assets/images/access5.jpg)
 ![Lighthouse-Accessabiltiy-Result](assets/images/access4.jpg)
 ![Lighthouse-Accessabiltiy-Result](assets/images/access3.jpg)
@@ -194,6 +195,7 @@ W3C Css validator
  # Deployment
 
      I have been using codeanywhere as my IDE and had been writting my code there. I then used Github as my repository to deploy my Project.
+     Here is the link of my github website:
      
 
 #  Credits
