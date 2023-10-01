@@ -92,7 +92,7 @@
 
 
 ## Picture of Information thru mobile
-![screenshot-tablet]()
+![screenshot-tablet](assets/images/Information2.jpg)
 
 
 
