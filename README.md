@@ -183,7 +183,7 @@ W3C Css validator
     
 
 ##      Lighthouse Accessability Result
-![Alt Lighthouse-Accessabiltiy-Result](assets/images/acessability8.pdf)
+![Lighthouse-Accessabiltiy-Result](assets/images/acessability8.pdf)
 
  
 
