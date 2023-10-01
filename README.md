@@ -196,21 +196,27 @@ Here is the result when I ran my page in google lighthouse.
 
      I have been using codeanywhere as my IDE and had been writting my code there. I then used Github as my repository to deploy my Project.
      Here is the link of my github website:
+###    https://elena5875.github.io/projectschool/
      
 
 #  Credits
 
 ##     Content
 
-#### The content of the Index.Html and Style.css was patterned from the Love Running Project of the Code Institute.
-        The link for this is https://code-institute-org.github.io/love-running-2.0/index.html
-####    Some content were also copied from the website W3School.com
+#### The content of the index.html and style.css was patterned or taken from the Love Running Project of the Code Institute.
+        The link for this is:
+###      https://code-institute-org.github.io/love-running-2.0/index.html
+
+####    Some content of my code were also copied from the website W3School.com
+
 ####    The fonts were taken from fonts.google.com
-    To make my forms responsive I used the site <https://formdump.codeinstitute.net/> to be able to create a mock up submission
+    To make my forms responsive I used the site 
+###   https://formdump.codeinstitute.net/> to be able to create a mock up submission
         
 
 ##     Media
 #### The Icons from the Footer were take from fontawesome.com
+
 #### For the pictures in the background and Gallery they were all downloaded from pexel.com
     
      
