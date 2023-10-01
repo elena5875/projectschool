@@ -105,7 +105,7 @@
 #### It is also placed in a way that the Photos will not over crowd the space. Hence the column spacing of *insert the measurement* was made to ensure that the reader will not be 
 
 ####  Picture of Gallery for Mobile
-     ![pictures](assets/images/gallery2.jpg)
+     ![pictures]()
 
     
 
