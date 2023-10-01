@@ -92,6 +92,7 @@
 
 
 ## Picture of Information thru mobile
+![screenshot-tablet]()
 
 
 
