@@ -94,7 +94,6 @@
 ## Picture of Information thru mobile
 
 
-![pictures](assets/images/gallery2.jpg)
 
 
 
@@ -104,7 +103,8 @@
 #### The gallery contains Photos of the activities done in the school. The photos chosen are bright and colorful to attract the attention of the reader.
 #### It is also placed in a way that the Photos will not over crowd the space. Hence the column spacing of *insert the measurement* was made to ensure that the reader will not be 
 
-#### overwhelmed by the pictures
+####  Picture of Gallery for Mobile
+     ![pictures](assets/images/gallery2.jpg)
 
     
 
