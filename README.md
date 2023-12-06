@@ -164,6 +164,9 @@ The following problems I have yet to solve:
           No.4. I believe my open tag is too far away from the closing tag that is why the validator can not find it. 
           No. 5 The element is part of the form code and the other codes worked properly only for one part.
 
+## UPDATE of my HTML:
+     I was able to update and made sure that my HTML passed the validator. Attached is the picture that shows my code has passed the W3C validator
+![screenshot-tablet](assets/images/html_validated.jpg)
 
          
 W3C Css validator
